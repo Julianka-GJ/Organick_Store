@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;CAS1B;;AAZD,AAKI,iBALa,CAKb,EAAE,CAAC;ECKH,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,YAAY;EACzB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,KAAK,EAdc,OAAO;CDOzB;;AAPL,AASI,iBATa,CASb,EAAE,CAAC;ECNH,SAAS,EAAE,IAAI;EACf,KAAK,EALK,OAAO;EAMjB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;CDKhB",
+    "sources": [
+        "OurProdbcts.scss",
+        "../_variables.scss"
+    ],
+    "names": [],
+    "file": "OurProdbcts.css"
+}

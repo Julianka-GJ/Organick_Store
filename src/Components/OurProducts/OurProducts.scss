@@ -1,0 +1,24 @@
+@import "../variables";
+
+
+.products_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+
+    h3 {
+        @include title-h3;
+    }
+
+    h2 {
+        @include title-h2;
+    }
+}
+
+.products_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

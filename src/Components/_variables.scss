@@ -1,0 +1,50 @@
+// color 
+
+$color__main: #274C5B;
+$color__main-hover-h3: #7EB693;
+
+@mixin title-h2 {
+    font-size: 45px;
+    color: $color__main;
+    font-weight: 600;
+    line-height: 58px;  
+}
+
+@mixin title-h3 {
+    font-size: 36px;
+    font-family: 'Yellowtail', 'OpenSans', 'Roboto';
+    font-weight: 400;
+    line-height: 64px;
+    color: $color__main-hover-h3;
+}
+
+@mixin text-content {
+    font-size: 18px;
+    font-family: 'OpenSans', 'Roboto';
+    line-height: 32px;
+    color: #525C60;
+}
+
+@mixin title-price {
+    font-family: 'OpenSans', 'Roboto';
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+}
+
+@mixin button-buy {
+    border-radius: 8px;
+    background-color: $color__main;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-family: 'OpenSans', 'Roboto';
+    line-height: 27px;
+    color: #FFFFFF;
+    letter-spacing: 0.36px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+ 
+
+

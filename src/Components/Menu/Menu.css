@@ -1,0 +1,25 @@
+.menu-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-nav li {
+  padding-right: 45px;
+  font-family: 'Roboto';
+  color: #274C5B;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: ease 2s;
+  transition: ease 2s;
+}
+
+.menu-nav li:hover {
+  color: #7EB693;
+}
+
+.menu-nav li:last-child {
+  padding-right: 0;
+}
+/*# sourceMappingURL=Menu.css.map */

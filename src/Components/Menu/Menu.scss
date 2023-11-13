@@ -1,0 +1,24 @@
+@import "../variables";
+
+.menu-nav {
+    display: flex;
+    list-style-type: none;
+
+    li {
+        padding-right: 45px;
+        font-family: 'Roboto';
+        color: $color__main;
+        font-size: 20px;
+        cursor: pointer;
+        transition: ease 2s;
+
+        &:hover {
+            color: $color__main-hover-h3;
+        }
+    }
+
+    & li:last-child {
+        padding-right: 0;
+    }
+
+}

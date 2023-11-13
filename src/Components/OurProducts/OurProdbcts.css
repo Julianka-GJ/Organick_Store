@@ -1,0 +1,28 @@
+.products_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products_wrapper h3 {
+  font-size: 36px;
+  font-family: 'Yellowtail';
+  font-weight: 400;
+  line-height: 64px;
+  color: #7EB693;
+}
+
+.products_wrapper h2 {
+  font-size: 45px;
+  color: #274C5B;
+  font-weight: 600;
+  line-height: 58px;
+}
+/*# sourceMappingURL=OurProdbcts.css.map */
